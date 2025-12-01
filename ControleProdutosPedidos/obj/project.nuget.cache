@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KJi1ngqHfFc=",
+  "dgSpecHash": "FOtSCd1RZjg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj",
+  "projectFilePath": "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\Backend\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaop\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
     "C:\\Users\\joaop\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"

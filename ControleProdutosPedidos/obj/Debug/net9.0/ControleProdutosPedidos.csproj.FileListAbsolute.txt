@@ -30,3 +30,4 @@ C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.pdb
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.genruntimeconfig.cache
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ref\ControleProdutosPedidos.dll
+C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.sourcelink.json

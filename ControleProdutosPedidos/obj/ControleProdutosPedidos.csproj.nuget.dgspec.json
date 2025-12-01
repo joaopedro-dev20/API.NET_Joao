@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj": {}
+    "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\Backend\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj": {
+    "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\Backend\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj",
+        "projectUniqueName": "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\Backend\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj",
         "projectName": "ControleProdutosPedidos",
-        "projectPath": "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj",
+        "projectPath": "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\Backend\\ControleProdutosPedidos\\ControleProdutosPedidos.csproj",
         "packagesPath": "C:\\Users\\joaop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\ControleProdutosPedidos\\obj\\",
+        "outputPath": "C:\\Users\\joaop\\Desktop\\College\\Programação\\Projeto.NET\\Backend\\ControleProdutosPedidos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaop\\AppData\\Roaming\\NuGet\\NuGet.Config"
