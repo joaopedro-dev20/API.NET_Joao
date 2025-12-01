@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleProdutosPedidos", "ControleProdutosPedidos\ControleProdutosPedidos.csproj", "{8F10AAE8-9413-A771-5BFE-D29E9BA101BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F10AAE8-9413-A771-5BFE-D29E9BA101BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F10AAE8-9413-A771-5BFE-D29E9BA101BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F10AAE8-9413-A771-5BFE-D29E9BA101BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F10AAE8-9413-A771-5BFE-D29E9BA101BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E92782A-AEE0-428E-8BC3-42D27B8C6E3B}
+	EndGlobalSection
+EndGlobal
