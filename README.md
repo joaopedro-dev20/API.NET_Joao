@@ -1,103 +1,98 @@
-README.md
-Controle de Produtos e Pedidos – João Pedro Campos
+📦 API de Controle de Produtos e Pedidos
 
-API simples para gestão de produtos e pedidos, utilizando armazenamento em memória (sem banco de dados) e com suporte integrado a Swagger.
+API feita em .NET 8 para gerenciar produtos e registrar pedidos, com atualização automática de estoque.
 
-Tecnologias Utilizadas
+🚀 Como executar o projeto
+1. Instale o .NET 8
+
+Download oficial: https://dotnet.microsoft.com/
+
+2. Entre na pasta do projeto
+cd SeuProjeto
+
+3. Execute a aplicação
+dotnet run
+
+4. Acesse o Swagger
+
+Depois de rodar, abra no navegador:
+
+https://localhost:7004/swagger
+
+
+É por lá que você pode testar todos os endpoints de forma fácil.
+
+📘 Endpoints da API
+🛒 Produtos (/products)
+➤ Criar produto
+
+POST /products
+
+Exemplo (JSON):
+
+{
+  "nome": "Coca-Cola",
+  "preco": 8.50,
+  "estoque": 50
+}
+
+➤ Listar todos os produtos
+
+GET /products
+
+➤ Buscar produto por ID
+
+GET /products/{id}
+
+📦 Pedidos (/orders)
+➤ Criar pedido
+
+POST /orders
+
+Exemplo (JSON):
+
+{
+  "nomeCliente": "João Pedro",
+  "itens": [
+    {
+      "produtoId": 1,
+      "quantidade": 2
+    }
+  ]
+}
+
+
+A API:
+
+valida se o produto existe
+
+valida estoque
+
+reduz o estoque após o pedido
+
+➤ Listar todos os pedidos
+
+GET /orders
+
+🧪 Exemplos de uso com cURL
+Criar um produto
+curl -X POST "https://localhost:7004/products" \
+-H "Content-Type: application/json" \
+-d "{\"nome\":\"Coca-Cola\",\"preco\":8.50,\"estoque\":50}"
+
+Criar um pedido
+curl -X POST "https://localhost:7004/orders" \
+-H "Content-Type: application/json" \
+-d "{\"nomeCliente\":\"João\",\"itens\":[{\"produtoId\":1,\"quantidade\":2}]}"
+
+🗂 Tecnologias utilizadas
 
 .NET 8
 
 ASP.NET Core Web API
 
-Swagger / Swashbuckle
+Swagger (Swashbuckle)
 
-🚀 Como Executar o Projeto
-1. Clonar o repositório
-git clone <URL_DO_REPOSITORIO>
-cd ControleProdutosPedidos
+✔ Sobre o projeto
 
-2. Restaurar dependências
-dotnet restore
-
-3. Executar a aplicação
-dotnet run
-
-4. Acessar o Swagger
-
-Abra no navegador:
-
-http://localhost:5097/swagger
-
-
-(O número da porta pode variar; verifique no console após rodar o projeto.)
-
-📌 Endpoints da API
-Produtos
-Método	Rota	Descrição
-GET	/products	Lista todos os produtos
-GET	/products/{id}	Busca produto por ID
-POST	/products	Cria um novo produto
-PUT	/products/{id}	Atualiza produto
-DELETE	/products/{id}	Remove produto
-Pedidos
-Método	Rota	Descrição
-GET	/orders	Lista todos os pedidos
-GET	/orders/{id}	Busca pedido por ID
-POST	/orders	Cria um novo pedido
-📄 Exemplos de Uso (curl)
-1. Criar um produto
-curl -X POST http://localhost:5097/products \
--H "Content-Type: application/json" \
--d "{
-  \"nome\": \"Notebook Lenovo\",
-  \"preco\": 3500.00
-}"
-
-2. Listar produtos
-curl http://localhost:5097/products
-
-3. Criar um pedido
-curl -X POST http://localhost:5097/orders \
--H "Content-Type: application/json" \
--d "{
-  \"nomeCliente\": \"João Pedro\",
-  \"itens\": [
-    { \"produtoId\": 1, \"quantidade\": 2 },
-    { \"produtoId\": 3, \"quantidade\": 1 }
-  ]
-}"
-
-4. Listar pedidos
-curl http://localhost:5097/orders
-
-📚 Usando a API via Swagger
-
-Execute:
-
-dotnet run
-
-
-Vá para:
-
-http://localhost:5097/swagger
-
-
-Escolha um endpoint
-
-Clique em Try it out
-
-Preencha os dados
-
-Clique em Execute
-
-O Swagger mostrará:
-
-requisição enviada
-
-resposta da API
-
-código HTTP
-
-📝 Observações
-
-Os dados são armazenados somente em memória, então se reiniciar a aplicação, tudo é apagado.
+Esse projeto foi desenvolvido para fins de estudo e para atender um teste técnico simples de API REST usando armazenamento em memória, CRUD de produtos e criação de pedidos com validação de estoque.
