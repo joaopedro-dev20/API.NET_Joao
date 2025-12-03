@@ -1,9 +1,9 @@
 README.md
-Controle de Produtos e Pedidos – API .NET 8
+Controle de Produtos e Pedidos – João Pedro Campos
 
 API simples para gestão de produtos e pedidos, utilizando armazenamento em memória (sem banco de dados) e com suporte integrado a Swagger.
 
-✔️ Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 .NET 8
 
