@@ -1,32 +1,18 @@
-using ControleProdutosPedidos.Models;
-
-
 var builder = WebApplication.CreateBuilder(args);
 
-// Adiciona os serviços necessários para usar controllers
 builder.Services.AddControllers();
 
-/* Adiciona o Swagger/OpenAPI para documentação automática. 
-
-Eu tentei utilizar, mas há um erro de compatibilidadecom a versão .NET 9, o que eu estou usando.
-
-
-*/
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-/* 
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-Eu tentei utilizar, mas há um erro de compatibilidadecom a versão .NET 9, o que eu estou usando.
-
-// Ativa o swagger apenas no ambiente de desenvolvimento
-*/
-
-// Reconduz requisições HTTP para HTTPS 
-app.UseHttpsRedirection();
-
-// Habilita o roteamento dos Controllers
 app.MapControllers();
 
-// Inicia o servidor
 app.Run();

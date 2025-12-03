@@ -6,8 +6,10 @@ C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\bin\Debug\net9.0\ControleProdutosPedidos.runtimeconfig.json
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\bin\Debug\net9.0\ControleProdutosPedidos.dll
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\bin\Debug\net9.0\ControleProdutosPedidos.pdb
-C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.csproj.AssemblyReference.cache
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\rpswa.dswa.cache.json
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,6 +18,7 @@ C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.csproj.CoreCompileInputs.cache
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.sourcelink.json
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -30,4 +33,3 @@ C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.pdb
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.genruntimeconfig.cache
 C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ref\ControleProdutosPedidos.dll
-C:\Users\joaop\Desktop\College\Programação\Projeto.NET\ControleProdutosPedidos\obj\Debug\net9.0\ControleProdutosPedidos.sourcelink.json
